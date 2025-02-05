@@ -95,16 +95,16 @@ setTimeout(function () {
 }, 3000);
 
 // 新春灯笼 （ 需要时可取消注释 ）
-// new_element=document.createElement("link");
-// new_element.setAttribute("rel","stylesheet");
-// new_element.setAttribute("type","text/css");
-// new_element.setAttribute("href","./css/lantern.css");
-// document.body.appendChild(new_element);
+new_element=document.createElement("link");
+new_element.setAttribute("rel","stylesheet");
+new_element.setAttribute("type","text/css");
+new_element.setAttribute("href","./css/lantern.css");
+document.body.appendChild(new_element);
 
-// new_element=document.createElement("script");
-// new_element.setAttribute("type","text/javascript");
-// new_element.setAttribute("src","./js/lantern.js");
-// document.body.appendChild(new_element);
+new_element=document.createElement("script");
+new_element.setAttribute("type","text/javascript");
+new_element.setAttribute("src","./js/lantern.js");
+document.body.appendChild(new_element);
 
 //获取一言
 fetch("https://v1.hitokoto.cn?max_length=24")
@@ -463,7 +463,7 @@ color: rgb(244,167,89);
 let styleContent = `
 color: rgb(30,152,255);
 `;
-let title1 = "無名の主页";
+let title1 = "Carlos Chenの主页";
 let title2 = `
  _____ __  __  _______     ____     __
 |_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
@@ -476,8 +476,8 @@ let content = `
 版 本 号：3.4
 更新日期：2022-07-24
 
-主页:  https://www.imsyy.top
-Github:  https://github.com/imsyy/home
+主页:  https://carloschen185.github.io
+Github:  https://github.com/carloschen185/home
 `;
 console.log(
   `%c${title1} %c${title2}
